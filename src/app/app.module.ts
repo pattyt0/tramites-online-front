@@ -13,6 +13,7 @@ import { FormsModule } from '@angular/forms';
 // external
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
+import {ApplicantService} from './service/applicant.service';
 
 
 @NgModule({
@@ -29,7 +30,9 @@ import { ToastrModule } from 'ngx-toastr';
     HttpClientModule,
     FormsModule
   ],
-  providers: [],
+  providers: [
+    ApplicantService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

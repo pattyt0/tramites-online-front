@@ -11,6 +11,8 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ### Demo
 [tramites-online demo](https://www.youtube.com/watch?v=pfymPIjGo4E)
 
+![img.png](img.png)
+
 ### Collaborators
 - Almanza Perez Ronald
 - Alvarez Ramos Luis Henrry

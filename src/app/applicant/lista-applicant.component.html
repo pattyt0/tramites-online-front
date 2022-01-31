@@ -1,13 +1,13 @@
 <br>
 <div class="box"><div class="box-header with-border">
-          
-          
+
+
   <button class="btn btn-primary" data-toggle="modal" routerLink="/nuevo">
     Iniciar Legalizacion
 
   </button>
-    
-  
+
+
   </div></div>
 
 <table class="table table">
@@ -30,11 +30,11 @@
       <tr *ngFor="let applicant of applicants">
         <td>{{applicant.ci}}</td>
         <td>{{applicant.name}}</td>
-        <td>{{applicant.fatherLastName}}€</td>
-        <td>{{applicant.motherLastName}}€</td>
-        <td>{{applicant.email}}€</td>
-        <td>{{applicant.cellphone}}€</td>
-        <td>{{applicant.phone}}€</td>
+        <td>{{applicant.fatherLastName}}</td>
+        <td>{{applicant.motherLastName}}</td>
+        <td>{{applicant.email}}</td>
+        <td>{{applicant.cellphone}}</td>
+        <td>{{applicant.phone}}</td>
         <td><button class="btn btn-outline-primary" routerLink="/detalle/{{applicant.id}}"><i class="far fa-eye"></i> Ver</button></td>
         <td><button class="btn btn-outline-warning" routerLink="/editar/{{applicant.id}}"><i class="far fa-edit"></i> Editar</button></td>
         <td><button class="btn btn-outline-danger" (click)="borrar(applicant.id)"><i class="far fa-trash-alt"></i> Eliminar</button></td>

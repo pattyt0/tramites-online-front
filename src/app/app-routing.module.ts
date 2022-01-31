@@ -5,7 +5,7 @@ import { NuevoApplicantComponent } from './applicant/nuevo-applicant.component';
 
 
 const routes: Routes = [
-  {path: 'lisa', component: ListaApplicantComponent},
+  {path: 'list', component: ListaApplicantComponent},
   {path: 'nuevo', component: NuevoApplicantComponent},
   {path: '**', redirectTo: '', pathMatch: 'full'}
 ];
